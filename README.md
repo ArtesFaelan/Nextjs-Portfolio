@@ -1,6 +1,7 @@
+<<<<<<< HEAD
 ## Hi there 👋
 
-<!--
+
 **ArtesFaelan/ArtesFaelan** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
 Here are some ideas to get you started:
@@ -13,4 +14,7 @@ Here are some ideas to get you started:
 - 📫 How to reach me: ...
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
--->
+
+=======
+# ethan-portfolio-starter
+>>>>>>> 7f275ba (initial commit from ethan-portfolio-starter template)
