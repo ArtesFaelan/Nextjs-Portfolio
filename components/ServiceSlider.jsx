@@ -3,7 +3,6 @@ import {
   RxPencil2,
   RxDesktop,
   RxPieChart,
-  RxRocket,
   RxArrowTopRight,
 } from "react-icons/rx";
 import { FreeMode, Pagination } from "swiper";
@@ -22,7 +21,7 @@ const serviceData = [
   {
     Icon: RxDesktop,
     title: "Web Application",
-    description: "Fully Implemented Web Application.",
+    description: "Fully Implemented Web Application By Our Team.",
   },
   {
     Icon: RxPieChart,

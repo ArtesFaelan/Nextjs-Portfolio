@@ -7,6 +7,7 @@ import {
   RiDribbbleLine,
   RiGithubLine,
   RiPinterestLine,
+  RiTelegramFill
 } from "react-icons/ri";
 
 export const socialData = [
@@ -30,14 +31,14 @@ export const socialData = [
   //   link: "https://dribbble.com",
   //   Icon: RiDribbbleLine,
   // },
-  // {
-  //   name: "Pinterest",
-  //   link: "https://pinterest.com",
-  //   Icon: RiPinterestLine,
-  // },
+  {
+    name: "Telegram",
+    link: "https://web.telegram.org/k/#@flyingavius",
+    Icon: RiTelegramFill,
+  },
   {
     name: "Github",
-    link: "https://github.com/arvid-kaiser",
+    link: "https://github.com/ArtesFaelan",
     Icon: RiGithubLine,
   },
 ];
@@ -52,9 +53,14 @@ const Socials = () => {
           href={social.link}
           target="_blank"
           rel="noreferrer noopener"
+          // className={`${
+          //   social.name === "Github"
+          //     ? "bg-accent rounded-full p-[10px] hover:text-white"
+          //     : "hover:text-accent"
+          // } transition-all duration-300`}
           className={`${
-            social.name === "Github"
-              ? "bg-accent rounded-full p-[5px] hover:text-white"
+            social.name === "Github" || social.name === "Telegram"
+              ? "bg-accent rounded-full p-[10px] hover:text-white"
               : "hover:text-accent"
           } transition-all duration-300`}
         >
