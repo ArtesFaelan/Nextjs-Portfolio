@@ -5,7 +5,7 @@ import ProjectsBtn from "../components/ProjectsBtn";
 import Avatar from "../components/Avatar";
 
 import { fadeIn } from "../variants";
-
+import contentKeys from "../keys/contents";
 const Home = () => {
   return (
     <div className="bg-primary/60 h-full">
@@ -32,10 +32,9 @@ const Home = () => {
             exit="hidden"
             className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16"
           >
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate,
-            exercitationem harum, quia nulla temporibus deleniti libero veniam
-            vero beatae numquam ducimus illum ab similique ipsam tempore fugit
-            quod laudantium debitis.
+            {
+              contentKeys.indexIntro
+            }
           </motion.p>
 
           {/* btn */}
