@@ -1,8 +1,40 @@
 import { motion } from "framer-motion";
-import { BsArrowRight } from "react-icons/bs";
-
 import { fadeIn } from "../../variants";
 import { useState } from "react";
+import {
+  RiGithubLine,
+  RiTelegramFill,
+  RiGameFill,
+  RiDiscordFill
+} from "react-icons/ri";
+
+
+export const contactData = [
+  {
+    name: "Telegram",
+    link: "https://web.telegram.org/k/#@flyingavius",
+    content: "@flyingavius",
+    Icon: RiTelegramFill,
+  },
+  {
+    name: "Github",
+    link: "https://github.com/ArtesFaelan",
+    content : "@ArtesFaelan",
+    Icon: RiGithubLine,
+  },
+  {
+    name: "Mail",
+    link: "https://gmail.com",
+    content : "bvtalk0905.dev@gmail.com",
+    Icon: RiGameFill,
+  },
+  {
+    name: "Discord",
+    link: "https://discord.com",
+    content : "@artes620",
+    Icon: RiDiscordFill,
+  },
+];
 
 const Contact = () => {
   const [isLoading, setIsLoading] = useState(false);
@@ -53,63 +85,23 @@ const Contact = () => {
             // only needed for production (in netlify) to accept form input
             data-netlify="true"
           >
-            {/* input group */}
-            <div className="flex gap-x-6 w-full">
-              <input
-                type="text"
-                name="name"
-                placeholder="Name"
-                className="input"
-                disabled={isLoading}
-                aria-disabled={isLoading}
-                required
-                aria-required
-              />
-              <input
-                type="email"
-                name="email"
-                placeholder="E-mail"
-                className="input"
-                disabled={isLoading}
-                aria-disabled={isLoading}
-                required
-                aria-required
-              />
-            </div>
-            <input
-              type="text"
-              name="subject"
-              placeholder="Subject"
-              className="input"
-              disabled={isLoading}
-              aria-disabled={isLoading}
-              required
-              aria-required
-            />
-            <textarea
-              name="message"
-              placeholder="Message..."
-              className="textarea"
-              disabled={isLoading}
-              aria-disabled={isLoading}
-              required
-              aria-required
-            />
-            <button
-              type="submit"
-              className="btn rounded-full border border-white/50 max-w-[170px] px-8 transition-all duration-300 flex items-center justify-center overflow-hidden hover:border-accent group"
-              disabled={isLoading}
-              aria-disabled={isLoading}
-            >
-              <span className="group-hover:-translate-y-[120%] group-hover:opacity-0 transition-all duration-500">
-                Let's talk
-              </span>
-
-              <BsArrowRight
-                className="-translate-y-[120%] opacity-0 group-hover:flex group-hover:-translate-y-0 group-hover:opacity-100 transition-all duration-300 absolute text-[22px]"
-                aria-hidden
-              />
-            </button>
+            <div class="flex flex-col gap-y-8 row mb-10">
+              {contactData.map((contact, i) => {
+                return (
+                  <div className="w-full md:w-3/4 flex text-xl">
+                    <div className="flex justify-start w-full text-center gap-x-5">
+                      
+                      <div className="bg-accent rounded-full p-[10px] hover:text-white"><contact.Icon aria-hidden /></div>
+                      <div className="text">
+                        <p>
+                          <span>{contact.name}:</span> <a className="text-blue-500 hover:underline">{contact.content}</a>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                )
+              })}
+						</div>
           </motion.form>
         </div>
       </div>

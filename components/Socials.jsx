@@ -2,7 +2,8 @@ import Link from "next/link";
 
 import {
   RiGithubLine,
-  RiTelegramFill
+  RiTelegramFill,
+  RiDiscordFill
 } from "react-icons/ri";
 
 export const socialData = [
@@ -16,6 +17,11 @@ export const socialData = [
     link: "https://github.com/ArtesFaelan",
     Icon: RiGithubLine,
   },
+  {
+    name: "Discord",
+    link: "https://discord.com",
+    Icon: RiDiscordFill,
+  },
 ];
 
 const Socials = () => {
@@ -28,10 +34,7 @@ const Socials = () => {
           href={social.link}
           target="_blank"
           rel="noreferrer noopener"
-          className={`${
-            social.name === "Github" || social.name === "Telegram"
-              ? "bg-accent rounded-full p-[10px] hover:text-white"
-              : "hover:text-accent"
+          className={`${"bg-accent rounded-full p-[10px] hover:text-white"
           } transition-all duration-300`}
         >
           <social.Icon aria-hidden />
