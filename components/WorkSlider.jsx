@@ -13,48 +13,48 @@ const workSlides = {
     {
       images: [
         {
-          title: "title",
-          path: "/thumb1.jpg",
+          title: "streamr",
+          path: "/work (5).png",
+          link: "https://streamr.ai/",
+        },
+        {
+          title: "Aiva",
+          path: "/work (1).png",
+          link: "https://www.aiva.vision/",
+        },
+        {
+          title: "EcoBeans",
+          path: "/work (2).png",
           link: "http://example.com",
         },
         {
-          title: "title",
-          path: "/thumb2.jpg",
-          link: "http://example.com",
-        },
-        {
-          title: "title",
-          path: "/thumb3.jpg",
-          link: "http://example.com",
-        },
-        {
-          title: "title",
-          path: "/thumb4.jpg",
-          link: "http://example.com",
+          title: "EcoGreens",
+          path: "/work (3).png",
+          link: "https://ecogreens.ca/",
         },
       ],
     },
     {
       images: [
         {
-          title: "title",
-          path: "/thumb4.jpg",
+          title: "Aiva",
+          path: "/work (2).png",
+          link: "https://www.aiva.vision/",
+        },
+        {
+          title: "AIFuntime",
+          path: "/work (1).png",
           link: "http://example.com",
         },
         {
-          title: "title",
-          path: "/thumb1.jpg",
-          link: "http://example.com",
+          title: "EcoGreens",
+          path: "/work (4).png",
+          link: "https://ecogreens.ca/",
         },
         {
-          title: "title",
-          path: "/thumb2.jpg",
-          link: "http://example.com",
-        },
-        {
-          title: "title",
-          path: "/thumb3.jpg",
-          link: "http://example.com",
+          title: "streamr",
+          path: "/work (6).png",
+          link: "https://streamr.ai/",
         },
       ],
     },

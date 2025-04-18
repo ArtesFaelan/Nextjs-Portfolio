@@ -16,7 +16,8 @@ const serviceData = [
   {
     Icon: RxCrop,
     title: "Automation",
-    description: "Services : make.com, Zapier, n8n.",
+    description: `Services : make.com, Zapier, n8n.
+                  Optimized automation workflow`,
   },
   {
     Icon: RxDesktop,
@@ -26,7 +27,7 @@ const serviceData = [
   {
     Icon: RxPieChart,
     title: "Data Analytics",
-    description: "Mater Skills in DB architecture, Data Analytics.",
+    description: "Master Skills in DB architecture, Data Analytics.",
   },
   {
     Icon: RxPencil2,

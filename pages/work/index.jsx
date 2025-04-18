@@ -4,6 +4,7 @@ import Bulb from "../../components/Bulb";
 import Circles from "../../components/Circles";
 import WorkSlider from "../../components/WorkSlider";
 import { fadeIn } from "../../variants";
+import contentKeys from "../../keys/contents";
 
 const Work = () => {
   return (
@@ -29,8 +30,7 @@ const Work = () => {
               exit="hidden"
               className="mb-4 max-w-[400px] mx-auto lg:mx-0"
             >
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
-              tempora eligendi, quisquam tempore sint reiciendis.
+              {contentKeys.workIntro}
             </motion.p>
           </div>
 

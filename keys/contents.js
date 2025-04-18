@@ -53,7 +53,8 @@ const contentKeys = {
     aboutClients : 15,
     aboutFinishedProjects : 25,
     aboutWinningAward: 6,
-    serviceIntro : "These are what I can offer you !"
+    serviceIntro : "These are what I can offer you !",
+    workIntro: `Here are my past works. Please enjoy by visiting those.`
 }
 
 export const aboutData = [

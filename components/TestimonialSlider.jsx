@@ -2,7 +2,7 @@ import Image from "next/image";
 import { FaQuoteLeft } from "react-icons/fa";
 import { Navigation, Pagination } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
-
+import contentKeys from "../keys/contents";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
@@ -10,24 +10,24 @@ import "swiper/css/pagination";
 const testimonialData = [
   {
     image: "/t-avt-1.png",
-    name: "Anne Smith",
+    name: "Sarah M",
     position: "Customer",
     message:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!",
+      "Our sales have increased significantly since the launch, and I attribute much of that success to " + contentKeys.name + "'s hard work and expertise. I highly recommend him to anyone in need of a talented software developer!",
   },
   {
     image: "/t-avt-2.png",
-    name: "Jane Doe",
+    name: "Emily K",
     position: "Customer",
     message:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!",
+      "Working with " + contentKeys.name + " on our new web application was a fantastic experience. His communication skills stood out right from the start—he made sure to keep us updated at every stage of the project and was always open to our feedback.",
   },
   {
     image: "/t-avt-3.png",
-    name: "Jhon Doe",
+    name: "Mark T",
     position: "Customer",
     message:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!",
+      "Thanks to his dedication and expertise, we delivered our application ahead of schedule, and the user feedback has been overwhelmingly positive. I can't thank " + contentKeys.name + " enough for his professionalism and hard work. He's a true asset to any project!",
   },
 ];
 
