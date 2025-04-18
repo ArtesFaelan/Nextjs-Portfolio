@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 ## Hi there 👋
 
 
@@ -18,3 +19,6 @@ Here are some ideas to get you started:
 =======
 # ethan-portfolio-starter
 >>>>>>> 7f275ba (initial commit from ethan-portfolio-starter template)
+=======
+# ethan-portfolio-starter
+>>>>>>> 193bce9 (npx prettier --write .)
