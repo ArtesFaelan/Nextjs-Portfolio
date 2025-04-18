@@ -2,7 +2,7 @@ import {
   RxCrop,
   RxPencil2,
   RxDesktop,
-  RxReader,
+  RxPieChart,
   RxRocket,
   RxArrowTopRight,
 } from "react-icons/rx";
@@ -16,28 +16,23 @@ import "swiper/css/pagination";
 const serviceData = [
   {
     Icon: RxCrop,
-    title: "Branding",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-  },
-  {
-    Icon: RxPencil2,
-    title: "Design",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    title: "Automation",
+    description: "Services : make.com, Zapier, n8n.",
   },
   {
     Icon: RxDesktop,
-    title: "Development",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    title: "Web Application",
+    description: "Fully Implemented Web Application.",
   },
   {
-    Icon: RxReader,
-    title: "Copywriting",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    Icon: RxPieChart,
+    title: "Data Analytics",
+    description: "Mater Skills in DB architecture, Data Analytics.",
   },
   {
-    Icon: RxRocket,
-    title: "SEO",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    Icon: RxPencil2,
+    title: "Native App (Android & IOS)",
+    description: "Our team offer well-implemented native apps.",
   },
 ];
 

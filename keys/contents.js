@@ -52,7 +52,8 @@ const contentKeys = {
     aboutYears : simpleInfo.years,
     aboutClients : 15,
     aboutFinishedProjects : 25,
-    aboutWinningAward: 6
+    aboutWinningAward: 6,
+    serviceIntro : "These are what I can offer you !"
 }
 
 export const aboutData = [
@@ -171,5 +172,6 @@ export const aboutData = [
     //   ],
     // },
   ];
+
 
 export default contentKeys;
