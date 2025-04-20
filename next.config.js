@@ -7,8 +7,8 @@ const nextConfig = {
   images: {
     unoptimized: true, // Disable default image optimization
   },
-  assetPrefix: isProd ? '/Nextjs-Portfolio/' : '',
-  basePath: isProd ? '/Nextjs-Portfolio' : '',
+  assetPrefix: '/Nextjs-Portfolio',
+  basePath: '/Nextjs-Portfolio',
   output: 'export'
 };
 
