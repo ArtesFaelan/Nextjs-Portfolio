@@ -22,23 +22,13 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ArtesFaelan/modern-portfolio.git"
+    "url": "https://github.com/ArtesFaelan/Nextjs-Portfolio.git"
   },
-  "homepage": "https://github.com/ArtesFaelan/modern-portfolio#readme",
+  "homepage": "https://ArtesFaelan.github.io/Nextjs-Portfolio.git",
   "bugs": {
     "url": "https://github.com/ArtesFaelan/modern-portfolio/issues",
     "email": "arvidxian1029@gmail.com"
   },
-  "funding": [
-    {
-      "type": "patreon",
-      "url": "https://www.patreon.com/sanidhy"
-    },
-    {
-      "type": "Buy me a coffee",
-      "url": "https://www.buymeacoffee.com/sanidhy"
-    }
-  ],
   "scripts": {
     "dev": "next dev",
     "build": "next build",
