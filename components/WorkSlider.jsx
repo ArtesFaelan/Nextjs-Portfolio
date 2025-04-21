@@ -3,6 +3,10 @@ import Link from "next/link";
 import { BsArrowRight } from "react-icons/bs";
 import { Pagination } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
+import streamrWork from "../public/work (5).png";
+import aiavaWork from "../public/work (1).png";
+import ecoBeanWork from "../public/work (2).png";
+import ecoGreenWork from "../public/work (3).png";
 
 import "swiper/css";
 import "swiper/css/free-mode";
@@ -14,22 +18,22 @@ const workSlides = {
 			images: [
 				{
 					title: "streamr",
-					path: "/work (5).png",
+					path: streamrWork,
 					link: "https://streamr.ai/",
 				},
 				{
 					title: "Aiva",
-					path: "/work (1).png",
+					path: aiavaWork,
 					link: "https://www.aiva.vision/",
 				},
 				{
 					title: "EcoBeans",
-					path: "/work (2).png",
+					path: ecoBeanWork,
 					link: "http://example.com",
 				},
 				{
 					title: "EcoGreens",
-					path: "/work (3).png",
+					path: ecoGreenWork,
 					link: "https://ecogreens.ca/",
 				},
 			],
@@ -38,7 +42,7 @@ const workSlides = {
 			images: [
 				{
 					title: "Aiva",
-					path: "/work (2).png",
+					path: aiavaWork,
 					link: "https://www.aiva.vision/",
 				},
 				{
@@ -48,12 +52,12 @@ const workSlides = {
 				},
 				{
 					title: "EcoGreens",
-					path: "/work (4).png",
+					path: ecoGreenWork,
 					link: "https://ecogreens.ca/",
 				},
 				{
 					title: "streamr",
-					path: "/work (6).png",
+					path: streamrWork,
 					link: "https://streamr.ai/",
 				},
 			],

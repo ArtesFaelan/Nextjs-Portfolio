@@ -11,7 +11,7 @@ import tAvt2 from "../public/t-avt-2.png";
 import tAvt3 from "../public/t-avt-3.png";
 const testimonialData = [
 	{
-		image: { tAvt1 },
+		image: tAvt1,
 		name: "Sarah M",
 		position: "Customer",
 		message:
@@ -20,7 +20,7 @@ const testimonialData = [
 			"'s hard work and expertise. I highly recommend him to anyone in need of a talented software developer!",
 	},
 	{
-		image: { tAvt2 },
+		image: tAvt2,
 		name: "Emily K",
 		position: "Customer",
 		message:
@@ -29,7 +29,7 @@ const testimonialData = [
 			" on our new web application was a fantastic experience. His communication skills stood out right from the start—he made sure to keep us updated at every stage of the project and was always open to our feedback.",
 	},
 	{
-		image: { tAvt3 },
+		image: tAvt3,
 		name: "Mark T",
 		position: "Customer",
 		message:
