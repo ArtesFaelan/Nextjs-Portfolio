@@ -3,11 +3,11 @@
   "version": "1.0.1",
   "private": true,
   "author": {
-    "name": "Artes Greco",
+    "name": "Lorenzo S.",
     "email": "arvidxian1029@gmail.com",
-    "url": "https://github.com/ArtesFaelan"
+    "url": "https://github.com/qistalkai"
   },
-  "description": "Artes is a Full-stack web developer with 10+ years of experience.",
+  "description": "Lorenzo is a Full-stack web developer with 5+ years of experience.",
   "keywords": [
     "react",
     "next",
@@ -22,11 +22,11 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ArtesFaelan/Nextjs-Portfolio.git"
+    "url": "https://github.com/Qistalkai/Nextjs-Portfolio.git"
   },
-  "homepage": "https://ArtesFaelan.github.io/Nextjs-Portfolio",
+  "homepage": "https://Qistalkai.github.io/Nextjs-Portfolio",
   "bugs": {
-    "url": "https://github.com/ArtesFaelan/modern-portfolio/issues",
+    "url": "https://github.com/Qistalkai/modern-portfolio/issues",
     "email": "arvidxian1029@gmail.com"
   },
   "scripts": {

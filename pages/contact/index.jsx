@@ -18,8 +18,8 @@ export const contactData = [
   },
   {
     name: "Github",
-    link: "https://github.com/ArtesFaelan",
-    content : "@ArtesFaelan",
+    link: "https://github.com/QistalKai",
+    content : "@QistalKai",
     Icon: RiGithubLine,
   },
   {

@@ -19,10 +19,10 @@ const Layout = ({ children }) => {
     >
       {/* metadata */}
       <Head>
-        <title>Artes</title>
+        <title>Lorenzo</title>
         <meta
           name="description"
-          content="Artes Greco is a Full-stack web developer with 10+ years of experience."
+          content="Lorenzo S. is a Full-stack web developer with 5+ years of experience."
         />
         <meta
           name="keywords"

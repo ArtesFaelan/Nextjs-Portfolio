@@ -43,7 +43,7 @@ const simpleInfo = {
 }
 
 const contentKeys = {
-    name: "Artes Greco",
+    name: "Lorenzo S.",
     indexIntro : `I'm a passionate software developer specializing in crafting dynamic Full Stack Web Applications and leveraging No-Code/Low-Code solutions to bring innovative web and app experiences to life.With six years of experience, honed skills, and exceptional communication, I'm here to turn your dreams into reality. 
                     Don't hesitate to reach out—your vision is just a conversation away!`,
     aboutContent : simpleInfo.years + ` years ago, I begin freelancing as a developer. Since then, I've

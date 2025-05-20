@@ -9,12 +9,12 @@ import {
 export const socialData = [
   {
     name: "Telegram",
-    link: "https://web.telegram.org/k/#@flyingavius",
+    link: "https://web.telegram.org/k/#@elmc_qistal",
     Icon: RiTelegramFill,
   },
   {
     name: "Github",
-    link: "https://github.com/ArtesFaelan",
+    link: "https://github.com/QistalKai",
     Icon: RiGithubLine,
   },
   {
